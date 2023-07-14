@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/542826c80d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="box">
+            <div class="music">
+                <img src="music.jpeg" alt="image">
+                <h1>Priya Mithunam</h1>
+                <p>Ajay-Atul, Karthik and Shweta Mohan</p>
+               
+                <audio controls id="song">
+                    <source src="[iSongs.info] 04 - Priya Mithunam.mp3" type="audio/mpeg">
+                </audio>
+                <input type="range" value="0" id="progress">
+               
+                <div class="controls">
+                    <div>
+                        <i class="fa-solid fa-backward"></i>
+                    </div>
+                    <div onclick="playPause()">
+                        <i class="fa-solid fa-play" id="ctrl" ></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-forward"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <script src="script.js"></script>
+    </body>
+</html>
